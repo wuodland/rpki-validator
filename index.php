@@ -65,12 +65,14 @@ function RPKIvali() {
 <body>
 <p>RPKI online validator using <a href=https://www.nlnetlabs.nl/projects/rpki/routinator/ target=_blank>Routinator</a> 
 (<a href=http://rpki.bg6cq.cn:9556/status>Routinator status</a>):<p>
+<h1 align="center">RPKI Validator</h1>
+
 
 <p><b>Please input ASN & prefix:</b></p>
 <form name=myForm> 
 <table>
-<tr><td align=right>ASN:</td><td> <input name=asn type="text" value=4134></td></tr>
-<tr><td align=right>Prefix:</td><td><input name=prefix type="text" value=202.141.160.0/20"></td></tr>
+<tr><td align=right>ASN:</td><td> <input name=asn type="number" value=4134></td></tr>
+<tr><td align=right>Prefix:</td><td><input name=prefix type="text" value=202.141.160.0/20></td></tr>
 </table>
 <button onclick="RPKIvali()">Submit</button> 
 </form>
@@ -79,6 +81,6 @@ function RPKIvali() {
 </span><script>
 RPKIvali();
 </script></p>
-<a href=http://github.com/bg6cq/rpki-validator>http://github.com/bg6cq/rpki-validator</a>
+<p>Source code at:</p><a href=http://github.com/bg6cq/rpki-validator>http://github.com/bg6cq/rpki-validator</a>
 </body>
 </html>
