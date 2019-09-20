@@ -79,6 +79,8 @@ function RPKIvali() {
 <script>
 RPKIvali();
 </script>
+<p>
 
+<a href=http://github.com/bg6cq/rpki-validator>http://github.com/bg6cq/rpki-validator</a>
 </body>
 </html>
