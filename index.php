@@ -69,18 +69,16 @@ function RPKIvali() {
 <p><b>Please input ASN & prefix:</b></p>
 <form name=myForm> 
 <table>
-<tr><td align=right>ASN:</td><td> <input name=asn type="text" value=4134 onkeyup="RPKIvali()"></td></tr>
-<tr><td align=right>Prefix:</td><td><input name=prefix type="text" value=202.141.160.0/20 onkeyup="RPKIvali()"></td></tr>
+<tr><td align=right>ASN:</td><td> <input name=asn type="text" value=4134></td></tr>
+<tr><td align=right>Prefix:</td><td><input name=prefix type="text" value=202.141.160.0/20"></td></tr>
 </table>
+<button onclick="RPKIvali()">Submit</button> 
 </form>
 
 <p>Routinator output: <span id="Status">
-</span></p>
-<script>
+</span><script>
 RPKIvali();
-</script>
-<p>
-
+</script></p>
 <a href=http://github.com/bg6cq/rpki-validator>http://github.com/bg6cq/rpki-validator</a>
 </body>
 </html>
